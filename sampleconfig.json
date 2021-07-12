@@ -1,0 +1,11 @@
+{
+	"app":{
+		"clientid":"", 
+		"secret":""
+	},
+	"grant":{
+		"grant_type": "",
+    "username": "",
+    "password": ""
+	}
+}
