@@ -1,9 +1,7 @@
 import requests
 
 # note that CLIENT_ID refers to 'personal use script' and SECRET_TOKEN to 'token'
-auth = requests.auth.HTTPBasicAuth(
-	'_wyXyHgxPxE6O8-JFeVcnQ', 
-	'ZHb4e7RNrKSJ1lzF8aXDxhnJnQYTYA')
+auth = requests.auth.HTTPBasicAuth()
 
 # here we pass our login method (password), username, and password
 data = {grant
